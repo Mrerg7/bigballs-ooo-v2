@@ -93,11 +93,20 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 184.1vh;
-  height: 54.321vw;
-  min-width: 100%;
-  min-height: 100%;
+  /* Portrait / narrow screens: contain the full frame so it stays legible */
+  width: min(184.1vh, 100vw);
+  height: min(54.321vw, 100vh);
   pointer-events: none;
+}
+
+@media (orientation: landscape) {
+  .hero-cover {
+    /* Landscape / desktop: cover the viewport, cropping the sides */
+    width: 184.1vh;
+    height: 54.321vw;
+    min-width: 100%;
+    min-height: 100%;
+  }
 }
 
 .hero-cover iframe {
