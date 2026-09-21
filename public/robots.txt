@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bigballs.ooo/sitemap-index.xml
+Sitemap: https://bigballs.ooo/sitemap.xml

@@ -8,11 +8,10 @@ Hero is a muted, looping Cloudflare Stream embed with atmospheric overlays.
 
 - Astro 7 (static output)
 - Tailwind CSS 4 via `@tailwindcss/vite`
-- `@astrojs/sitemap`
 - Content Collections (ready)
 - Cloudflare Stream for the primary visual
 - Full Open Graph + Twitter cards + JSON-LD structured data
-- `robots.txt` + auto-generated sitemap
+- `robots.txt` + static `sitemap.xml`
 - Google Search Console verification meta tag
 
 ## Local development
